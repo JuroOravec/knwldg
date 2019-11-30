@@ -1,0 +1,4 @@
+{
+    "python.pythonPath": "/Users/juro/.local/share/virtualenvs/goulash-0Ucx5ooV",
+    "python.formatting.autopep8Args": ["--ignore", "E402"]
+}
