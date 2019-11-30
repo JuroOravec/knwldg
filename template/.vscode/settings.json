@@ -1,0 +1,4 @@
+{
+    //"python.pythonPath": "/Path/to/virtualenvs/xxxxxxxx/bin/python",
+    "python.formatting.autopep8Args": ["--ignore", "E402"]
+}

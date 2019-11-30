@@ -1,0 +1,19 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+autopep8 = "*"
+pandas = "*"
+
+[packages]
+scrapy = "*"
+scrapy-rotating-proxies = "*"
+selenium = "*"
+requests = "*"
+scrapy-random-useragent = {editable = true,path = "./../common/packages/scrapy-random-useragent"}
+common = {editable = true,path = "./../common/common"}
+
+[requires]
+python_version = "3.7"
