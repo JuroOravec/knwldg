@@ -1,3 +1,0 @@
-[submodule "common/packages/scrapy-random-useragent"]
-	path = common/packages/scrapy-random-useragent
-	url = https://github.com/JuroOravec/scrapy-random-useragent.git

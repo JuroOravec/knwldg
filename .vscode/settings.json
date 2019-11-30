@@ -1,8 +1,0 @@
-{
-    "files.exclude": {
-        "org": true,
-        "common": true,
-        "event": true,
-        "goulash": true
-    }
-}
