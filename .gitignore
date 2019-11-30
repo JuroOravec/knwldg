@@ -1,0 +1,10 @@
+__pycache__
+.DS_Store
+
+# ignore obtained data
+**/data/*
+
+# Ignore package-specific VS Code settings except the template
+# .vscode/
+# !**/template/.vscode/
+# !knwldg/.vscode/

@@ -1,0 +1,10 @@
+{
+    "files.exclude": {
+        "fr": true,
+        "sk": true,
+        "uk": true,
+        "common": true,
+        "event": true,
+        "goulash": true
+    }
+}

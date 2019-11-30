@@ -1,0 +1,26 @@
+{
+  "folders": [{
+      "path": "fr"
+    },
+    {
+      "path": "sk"
+    },
+    {
+      "path": "uk"
+    },
+    {
+      "path": "event"
+    },
+    {
+      "path": "goulash"
+    },
+    {
+      "path": "common"
+    },
+    {
+      "name": "knwldg",
+      "path": "."
+    },
+  ],
+  "settings": {}
+}
