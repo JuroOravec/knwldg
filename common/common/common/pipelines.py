@@ -1,15 +1,23 @@
 import csv
+from pathlib import Path
 
 import scrapy
 
 import common.util as util
 
+
 class CsvWriterPipeline(object):
 
     def open_spider(self, spider):
-        timestamp = spider._time_tag if hasattr(spider, '_time_tag') else util.time_tag()
-        self.file = open(
-            f'data/{spider.name}__{timestamp}.csv', 'w', newline='')
+        timestamp = spider._time_tag if hasattr(
+            spider, '_time_tag') else util.time_tag()
+        data_dir = Path('data')
+        if data_dir.exists() and not data_dir.is_dir():
+            spider.logger.critical(
+                "Data cannot be saved, 'data' is not a directory.")
+        data_dir.mkdir(exist_ok=True)
+        self.file = data_dir.joinpath(
+            f'{spider.name}__{timestamp}.csv').open('w', newline='')
         # if python < 3 use
         #self.file = open('mietwohnungen.csv', 'wb')
         self.items = []
