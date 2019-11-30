@@ -130,7 +130,7 @@ class EventTypePipeline(object):
             return item
 
         name = name.lower()
-        if event_type != '':
+        if event_type != '' and event_type is not None:
             item['event_type'] = item['event_type'].lower()
             return item
 
