@@ -1,0 +1,19 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+# browsermob-proxy = "*"
+six = "*"
+selenium = "*"
+scrapy = "*"
+scrapy-inline-requests = "*"
+gdelt = "*"
+xlwt = "*"
+pillow = "*"
+
+[requires]
+python_version = "3.7"
