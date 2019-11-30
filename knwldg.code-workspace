@@ -1,15 +1,9 @@
 {
   "folders": [{
-      "path": "fr"
-    },
-    {
-      "path": "sk"
-    },
-    {
-      "path": "uk"
-    },
-    {
       "path": "event"
+    },
+    {
+      "path": "org"
     },
     {
       "path": "goulash"
