@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: common
+Version: 0.1.0
+Summary: Knwldg common scripts
+Home-page: UNKNOWN
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Provides-Extra: test
+Provides-Extra: all
+Provides-Extra: docs
+Provides-Extra: lint
